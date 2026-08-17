@@ -411,7 +411,7 @@ The course data is seeded into the production PostgreSQL database before the app
 Add the deployed URL here:
 
 ```text
-https://your-vercel-url.vercel.app
+https://learniee-parent-dashboard2.vercel.app/login
 ```
 
 ### GitHub Repository
@@ -419,7 +419,7 @@ https://your-vercel-url.vercel.app
 Add the repository URL here:
 
 ```text
-https://github.com/YOUR_USERNAME/learniee-parent-dashboard
+https://github.com/Chinmay48/learniee-parent-dashboard
 ```
 
 ## What I Would Improve
