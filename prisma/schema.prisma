@@ -1,0 +1,28 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model User {
+  id        String   @id @default(cuid())
+  name      String
+  email     String   @unique
+  password  String
+  createdAt DateTime @default(now())
+}
+
+model Course {
+  id            String   @id @default(cuid())
+  name          String
+  description   String
+  subject       String
+  grade         String
+  price         Float
+  teacherName   String
+  teacherRating Float
+  createdAt     DateTime @default(now())
+}
